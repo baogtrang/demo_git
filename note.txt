@@ -1,0 +1,5 @@
+git init (khởi tạo repo local)
+git remote add origin https://github.com/baogtrang/demo_git.git (liên kết repo local và repo remote)
+
+ĐẨY SOURCE TỪ LOCAL LÊN REMOTE
+git add -A  
