@@ -13,8 +13,7 @@ git config user.email "baogtrang@gmail.com"
 -------------------------------------
 4) git add -A  (chọn)
 5) git commit -m "descriptive message" (xác nhận và ghi kèm chú thích)
-6) git push -u origin master (đẩy lần 1)
-7) git push (đẩy lần 2)
+6) git push (đẩy lần 2)
 
 BRANCH (nhánh, giống như dòng thời gian)
 git branch (để xem nhánh hiện tại)
