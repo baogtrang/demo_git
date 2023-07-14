@@ -1,13 +1,21 @@
-2 BƯỚC BẮT BUỘC CHO MỌI GIT
-git init (khởi tạo repo local)
-git remote add origin https://github.com/baogtrang/demo_git.git (liên kết repo local và repo remote)
-
-ĐẨY SOURCE TỪ LOCAL LÊN REMOTE (3 bước)
-git add -A  (chọn)
-git commit -m "descriptive message" (xác nhận và ghi kèm chú thích)
-git push -u origin master (đẩy lần 1)
-git push (đẩy lần 2)
-
-SET UP ACCOUNT
+SET UP ACCOUNT (bước này chỉ làm 1 lần trên mỗi máy)
 git config user.name "baogtrang"
 git config user.email "baogtrang@gmail.com"
+
+2 BƯỚC BẮT BUỘC CHO MỌI GIT
+1) git init (khởi tạo repo local)
+2) git remote add origin https://github.com/baogtrang/demo_git.git (liên kết local repo và remote repo)
+
+ĐẨY SOURCE TỪ LOCAL LÊN REMOTE (3 bước)
+1) git add -A  (chọn)
+2) git commit -m "descriptive message" (xác nhận và ghi kèm chú thích)
+3) git push -u origin master (đẩy lần 1)
+-------------------------------------
+4) git add -A  (chọn)
+5) git commit -m "descriptive message" (xác nhận và ghi kèm chú thích)
+6) git push -u origin master (đẩy lần 1)
+7) git push (đẩy lần 2)
+
+BRANCH (nhánh, giống như dòng thời gian)
+git branch (để xem nhánh hiện tại)
+git checkout -b login (tạo nhánh login từ nhánh hiện tại)
