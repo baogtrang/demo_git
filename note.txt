@@ -2,7 +2,7 @@ SET UP ACCOUNT (bước này chỉ làm 1 lần trên mỗi máy)
 git config user.name "baogtrang"
 git config user.email "baogtrang@gmail.com"
 
-2 BƯỚC BẮT BUỘC CHO MỌI GIT
+2 BƯỚC BẮT BUỘC CHO MỌI REPO
 1) git init (khởi tạo repo local)
 2) git remote add origin https://github.com/baogtrang/demo_git.git (liên kết local repo và remote repo)
 
@@ -20,3 +20,18 @@ git branch (để xem nhánh hiện tại)
 git checkout -b login (tạo nhánh login từ nhánh hiện tại)
 
 git merge login (đưa code từ nhánh login về nhánh hiện tại)
+
+MERGING CODE FROM BRANCHES TO MASTER BRANCH
+git add -A
+git commit - "merging code to master"
+git push
+
+!!! Lưu ý vị trí đứng hiện tại vì đứng ở đâu thì sẽ tác động đến chỗ đó thôi
+
+LẤY SOURCE TỪ 1 REPO
+git clone url (clone source vào folder hiện tại, lần đầu tiên)
+git pull (update code mới nhất, cho những lần sau)
+
+ADDITIONAL COMMANDS & NOTES
+git log (to see the commit list)
+trước khi làm việc nguyên hiểm thì nên commit để tạo ra version
